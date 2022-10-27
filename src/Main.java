@@ -15,6 +15,6 @@ public class Main {
         var totalHours = 640;
         var onePersonHours = 8;
         var totalPerson = totalHours / onePersonHours;
-        System.out.println("Всего в компании " + totalPerson + " сотрудников.");
+        System.out.println("Всего работников в компании " + totalPerson + " человек.");
     }
 }
