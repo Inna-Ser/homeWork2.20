@@ -10,5 +10,11 @@ public class Main {
         System.out.println("Разница между весом боксеров: используя вычитание - " + differentBoxerWeight + "кг!");
         differentBoxerWeight = totalBoxersWeight % firstBoxerWeight;
         System.out.println("Разница между весом боксеров: используя функцию остатка от деления - " + differentBoxerWeight + "кг!");
+
+        System.out.println("Задачи с сотрудниками.");
+        var totalHours = 640;
+        var onePersonHours = 8;
+        var totalPerson = totalHours / onePersonHours;
+        System.out.println("Всего в компании " + totalPerson + " сотрудников.");
     }
 }
